@@ -14,7 +14,7 @@ import pathlib
 
 ### Input Text
 path_root = "D:/dev/puzzles/DimityJones/"
-in_filename = "decoded-1.txt"
+in_filename = "puzzle-3.txt"
 in_filepath = pathlib.Path(path_root, in_filename)
 print(in_filepath)
 input_text = str(load_text(in_filepath))
@@ -49,8 +49,8 @@ for word in inputlist:
 
 out_text = " ".join(newlist)
 #print(out_text)
-print(out_text[:100])
+#print(out_text[:100])
 
 ### Dump text to file
-#out_filename = "decoded-3.txt"
-#write_text(out_filename, out_text)
+out_filename = r"DimityJones\solution-3.txt"
+write_text(out_filename, out_text)

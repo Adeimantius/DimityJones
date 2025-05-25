@@ -1,3 +1,4 @@
+### File Mangement Operations
 def load_text(filename):
     with open(filename, "r") as f:
         return f.read()
@@ -7,32 +8,25 @@ def write_text(filename, text):
         f.write(text)
         return True
 
+### Imports
 import os
 import pathlib
-filepath = pathlib.Path("D:\dev\puzzles", "decoded-0-Eighty-NineCiphertexts.txt")
-print(filepath)
-originaltext = str(load_text(filepath))
+
+### Input Text
+path_root = "D:/dev/puzzles/DimityJones/"
+in_filename = "puzzle-2.txt"
+in_filepath = pathlib.Path(path_root, in_filename)
+print(in_filepath)
+input_text = str(load_text(in_filepath))
 # for i in range(0, 20):
-#     print(originaltext[i])
-newtext = ""
+#     print(input_text[i])
 
-""" def get_next_letter(index):
-    # on even indices, read from front
-    # on odd indices, read from back
-    if index % 2 == 0:
-        #even index
-        return originaltext[int(index/2)]
-        
-    elif index % 2 == 1:
-        #odd index
-        return originaltext[int(-(index-1)/2)]
+### Output Text
+out_text = ""
 
-for i in range(0, 10):...
-    nextletter = get_next_letter(i)
-    newtext.append(nextletter)
 
-print(str(newtext))
- """
+### Last Solution
+""" 
 def insertChar(mystring, position, chartoinsert ):
     mystring   =  mystring[:position] + chartoinsert + mystring[position:] 
     return mystring   
@@ -42,7 +36,7 @@ def insertChar(mystring, position, chartoinsert ):
 # print(insertChar(a,9, '@'))    
 # print(insertChar(a,14, '%'))   
 
-numchars = len(originaltext)
+numchars = len(input_text)
 # for i in range(0, numchars):
     # insertChar(newtext, i, "!")
     # newtext += "!"
@@ -52,14 +46,28 @@ fwd = 0
 bck = numchars - 1
 next = fwd
 for i in range(0, numchars):
-    newtext += originaltext[next]
+    newtext += input_text[next]
     if i % 2 == 0:
         fwd += 1
         next = bck
     else:
         bck -= 1
         next = fwd
+"""
 
-# print(newtext[:20])
-filename = "decoded-1.txt"
-write_text(filename, newtext)
+inputlist = input_text.split(".")
+newlist = []
+for line in inputlist:
+    correctline = line.split(" ")
+    correctline.reverse()
+    newlist.append(" ".join(correctline))
+
+out_text = ".".join(newlist)
+
+
+#print(out_text)
+print(out_text[:100])
+
+### Dump text to file
+out_filename = "solution-2.txt"
+write_text(out_filename, out_text)

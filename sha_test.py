@@ -1,5 +1,9 @@
 import hashlib
 
+def load_text(filename):
+    with open(filename, "r") as f:
+        return f.read()
+    
 def compare_sha256_hashes(data, expected_hash):
   """
   Generates a SHA256 hash of the input data and compares it to the expected hash.
@@ -15,13 +19,16 @@ def compare_sha256_hashes(data, expected_hash):
     data = data.encode('utf-8') # Encode string to bytes
   
   hashed_data = hashlib.sha256(data).hexdigest()
+  print(hashed_data)
+  print(expected_hash)
   return hashed_data == expected_hash
 
 #test_buffer = "To begin with, for example, and to make sure your SHA-256 hash function is working, the hash value or checksum of this sentence, from capital 'T' to concluding colon, expressed in hexadecimal, is:"
-
-#test_sha = "10c0c7d9b0222a5a61601337105f1cbb7b1723b991404b870537095d1174f2b2"
-input_text = ""
-target_sha = "d1d947630fedcbeb090f172440c7d3cbb5c15c4f6374655e16db21ff375d460a"
+#input_text = test_buffer
+#target_sha = "10c0c7d9b0222a5a61601337105f1cbb7b1723b991404b870537095d1174f2b2"
+filepath = r"D:\dev\puzzles\solution-2.txt"
+target_sha = "d5692933375a798f0916f2556233329d3c45458a80dac272560d6c4c981f79a1"
+input_text = load_text(filepath)
 
 match = compare_sha256_hashes(input_text, target_sha)
 print(match)

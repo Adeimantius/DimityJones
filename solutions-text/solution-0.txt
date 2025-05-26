@@ -1,4 +1,150 @@
-Cnrtltos o aecretypromdyu is eihretb pligDmt' frt at eod eodls,ec"mto oyu edn ftermiigcaatr fti etfl.
+
+Dimity Jones in Puzzle Castle: An Electronic Escape Novel in Eighty-Nine Ciphertexts
+
+
+Dimity stood, slumped, sweating, and agape with boredom, in the loud, greasy, ovenlike sunshine of the fairground, waiting for her mom, dad, and brother to finish riding The Disemboweller. It had already been a long wait, and was promising to be much longer: from where she stood near the exit, she could see that the huge, snaking queue wound back and forth as far as the eye could reach. Every seven to nine minutes by her wristwatch, her family came into view as they turned another corner on the side nearest to her; and by her count, there remained another nine such corners to turn before they would even get on the ride. The ride itself, as she deduced by the intervals at which groups of green or grinning riders emerged from the exit, lasted just under four minutes. That meant that (she enjoyed doing math) she could expect to have to wait at least another sixty-seven and possibly as much as eighty-five minutes! She stamped her feet, sighed fartily through loose lips, and slumped further. She almost wished she was still in line with them. Almost.
+
+But the sight of the ride reminded her why she had pretended to need to pee -- why, in fact, for a moment, looking up at it, she really had needed to pee. A hulking, teetering tower of screechy, rain-rusted cogwheels, pinions, and chain belts, The Disemboweller snatched its trussed-up victims from the face of the earth, launched them screaming into the air, grabbed them again (or nearly didn't), whipped them around on a flimsy elastic tether, shook them, spun them, bounced them, batted them, and finally dropped them belly-first onto giant spikes still glistening with the blood and viscera of the last impaled riders. Your blood and guts, according to her dad, would be replaced and repacked better than new on your way out, and the adrenaline coursing through your veins would supposedly ensure you felt no pain; but Dimity was not convinced.
+
+Eking out a single bar of shade from a section of moveable fencing, she sat down on a patch of hot, sticky pavement and withdrew from her beltbag her diary and favorite purple pen. She swiftly filled a page with writing, though in a rather unusual manner, so that when she was finished, the page looked like this:
+
+"""
+Dear Diary: It's awful to admit, but lately I've begun to feel as
+into the wrong one. The three of them always seem to get along so
+everything from what movie to watch to where to go on vacation,
+room, whereas I, on the other hand, sometimes feel as though I
+can't help but find birdwatching boring (sorry, Mom), and cross-
+utterly pointless (Jonathan). Vice versa, none of them seem to
+mystery novels all too obviously leave them utterly cold. In
+them, has been visible for a long time. Remember how much they
+documentary? I wonder if we wouldn't all be happier living apart.
+enjoyed laser tag? Remember how little they liked the chess
+fact, the evidence that I am the odd person out, a misfit among
+have any interest in my passions: amateur radio, piano music, and
+stitch silly (sorry, Dad), and collecting collectible figurines
+have nothing in common with any of them at all. For example, I
+from what meal to make next to what color to paint the living
+effortlessly and to always be in perfect agreement about
+though I don't belong to this family at all, as though I was born
+"""
+
+It was her hope that such a cipher, though simple for her to produce and to reread, would confound a hasty or unimaginative snooper -- such as her brother.
+
+***
+
+Welcome to "Dimity Jones in Puzzle Castle"! To continue reading, you will need to decipher the rest of this text file, starting immediately after the next section-break of five pound signs. It has been encoded, and so must be read, in a manner similar to that of Dimity's diary page, except that instead of entire lines, it is individual characters that have been rearranged (not just letters, but also punctuation marks, spaces, and line breaks).
+
+You will want to use a computer to help you process the following "ciphertext". Any programming language capable of performing some simple string manipulation should do the trick. I used one called Ruby to help me encipher (and test-decipher) the chapters of this story. Rest assured that no advanced coding will be required. I'm a novice myself!
+
+You will know you have deciphered the ciphertext correctly if the first word of the deciphered "plaintext" is "Congratulations!"
+
+[Editor's note:
+
+In fact, it is altogether possible to correctly decipher the first word -- or the first paragraph, or the first ninety-nine percent -- of the ciphertext, and yet fail to correctly decipher the rest.
+
+Because you may not realize you have made any error, and because the decipherability of subsequent chapters depends so delicately upon the precise decipherment of previous ones, you will need to be sure that your solution does not deviate by even a single character from the correct answer. In short, you will need a way to verify the integrity of your results.
+
+I have therefore provided in the table below a short, unique, identifying fingerprint for each of the eighty-nine concealed plaintexts. These hash values, or checksums (frankly, I do not very clearly understand the difference), were generated by the SHA-256 algorithm -- implementations of which you should easily be able to find and run on your own plaintexts. (By "plaintext", I mean the entire rest of the file, correctly deciphered -- of which, however, only the next chapter will be legible ... until the subsequent decipherment, and so on.) If your checksum matches the one listed here, then you can rest assured that your solution is exactly correct. If it does not match, even if the next chapter seems perfectly legible, you have made a mistake somewhere, and you will surely experience difficulties down the road. Better debug your code!
+
+To begin with, for example, and to make sure your SHA-256 hash function is working, the hash value or checksum of this sentence, from capital 'T' to concluding colon, expressed in hexadecimal, is: 10c0c7d9b0222a5a61601337105f1cbb7b1723b991404b870537095d1174f2b2
+
+Got that? Good. Then here are the checksums for all the solutions to the eighty-nine puzzles:
+
+01: d1d947630fedcbeb090f172440c7d3cbb5c15c4f6374655e16db21ff375d460a
+02: d5692933375a798f0916f2556233329d3c45458a80dac272560d6c4c981f79a1
+03: 2f2c81c6f85a957ec494899f0e1ca52a3d4957aa5f71ed115db48657e62742bc
+04: 37f48587ec073d5d5788afc50b59c9f12d393b9111c492b845d390bf5800ecae
+05: 79c920c8074fb613a3818e53ed7d6d053faa6de055f79f955c886b9ffbc8ebcb
+06: db01cf9dffa371f7498e44dc9c848c253b2ee83044e8183303ac4a9d4d64b2e0
+07: 972bc5851d702addbd9cdd160e168315be6ea88c5c8e81b310a3ceb32a689297
+08: b4abcd93389e41f2f2bff9bccf3037122d54e6a64a64f8385f1c66da8363f883
+09: 1d2482587a0b9e3a9fbcb9c6ce6f56ae7b8563e3fb78ba1c921d8b1d7377650b
+10: c5932def6c1c184b14fe2387d21da09ee9e9b144bdeb6f0322bab1561c628e38
+11: cb1d8a829b95a6ba1318b362fc48b027e6d48769db882cf1dd845d0f840ca5e0
+12: 5b5d1473979033f7ccbfc4f64a8d0a8de3943b8082a65f019a01ff6b94eea7f7
+13: 278a4db978c130e259f2e367c8ecc7f448da64a0a1e43f4ff1604e62300407de
+14: c598ee4674a4675b90e33c9e7e57068e8fe082d4967737e7a2a2112101679b2b
+15: fc25683f46b31a48639b79da14073ca793704226aa29d2784ad2ebc55f6908c0
+16: 64bbddb13c41af8799adf1cc0c69cac5a9c9dee2f23c77c01bd8136c9c7db2fa
+17: c47d750614ba6c8aa8f0d24f7d18e7765113b77e4d4f1fa0bfc44680f2f3b28c
+18: 7105d47daba423a1cdb2f2b8abcc405315000cf47f7f8ab68d57fb61b75708d6
+19: 5318d953d320308488f3169b54f291c129dd152283ba6525b47702305f33024f
+20: 38506fee17965be00549defb385e4a899ea3615162ebb57303453af45214a30c
+21: c7a4f8b1ce0aacac2057927f572f05d033adb15a2e56666784c853460cff85c3
+22: d5a79a005109e66ef8f54015acbd3ccf7cdad096051253a858391a0765e55259
+23: fcb43ef61ac0c821e6c217d79edd755d3558461cf8eddc3c27f615a161cd9cf3
+24: 50a9cc50c5e03c3f9b70ff2723879c178a3f15f57dc9488deb9d331a788fefe9
+25: 426ebf7b2c5d3d8594a84f4233fc0bae29723dda6a65441d6d3062e0410c1a94
+26: 1b30eb4d9e6430626fddefaaf706ebdd5e15135976d8f4bf9588264f07bd9bfc
+27: 3f7f7a872ae3405840c1df6704e1c4d93b4460bf4000e9d506f7863227362709
+28: 18a0ce0dcf5cd2daccc8a88f5dddf6b5c503d509e89dd281de15db1b7c8f50e7
+29: 1aab6e10c18c6b19ce104c3e67b5fc91e0d3e5a1ae0d76e5c918298e90f7b6e5
+30: feb67f0c1e92a3bb1adf897b6946414762785ade51e1cf2ca12794203dc29c32
+31: 15ba8d59c51ff14e58dffe5310910813e691aa3f630a05e18e3127bf4ef66bf1
+32: a57b55f8adc9fb67847e8b9b37b3fe23856653fb2b3517c8b8d27207e09e0957
+33: 2f3e9560f3783bb01dedd1d9527ef10a8eb90375b8db685dc759b80892865af2
+34: a0fb7907b0c92ffbaa1f66dcff6e4777d5da82c399cbbfbbac2be754058789f2
+35: a19b6ea995aa75fe9ff4bc79a875953597b156d8f5a5fc73812bea795db9ebbb
+36: 60e2dd81ac3ba1dd0d0e326c3e0467a6a82f99166947efab98127e7977e71063
+37: 0ac2e73e7a003e35504185a6172e545f733914e01da349355d7fe85161d7bf83
+38: dc69681e8080e7848b8af2b5201e46c63d7926ba6603d4c796a08885bc605945
+39: b989ab7781d13702be9fd51fe04c6d149a8567b2cc5cffb749408e3244734fd8
+40: 64ba6913fad80d3333cfbb3fbb4a827da121d0e0eb260f807f17e69f40508990
+41: 6910113c21eb1f3943fde1bb19046aa7d55fa51b628b6059973ed0bd0b684d04
+42: 7605d3b559d1ab120d196d5392b0aa464665904d1ba69c4c566e4739fc8a8108
+43: ece89db593dd54f132a848b2b20531a7882c9e6f9ad0712ba5df473348f40fdc
+44: 01396e63e683fe672ceac8c81ce8dfd7cb3a3b2237aed2f681561ff654b269b5
+45: e6fc75610e97db2af821f5a7cd9eac2c7ef2cadfa5d2a8f12a67a0e7599c7d43
+46: eb476713d43e3dc4532895511d213f1890228323529edf69720fb50757df0758
+47: 7d0ae997b6d8a054315dda124ba074f965ffa73d1043ffd38b985f21434ecaf7
+48: fa0cc8df929ae1e87c99b3fe43d7b547a6d849325008f541e867212c58ec973b
+49: 05825854e0e237b2f32e673b39da90925e4a3dfa5d0e76b9013d268e5cd6507e
+50: 362f538d1517cce6b122c32d218c9417d8d447f4750bbc48f01895c6d9b750d9
+51: ab07c13f57009de48f36a56e419ad6982da3932b6f53fef227ec7e2e072b6641
+52: 9b92ad7b755256ad2cfc4e8c4679b98ec7111b7ab3b5855b50d39706a9cea7f4
+53: 1b7a7e431f6f914dfd1c2ebde3e31848c05b1a455ad4913683efbb2141817a28
+54: f2183f02e375384e4092536bbe30e5f7042e81b8a39338d1d044dca9a78bce87
+55: 3e4143aa14306abbd1049accd910e418dc6d78144a474c97d8129c611b2f560c
+56: f008d8355867718632df5fd9c8b8c46f26a0a0d622bed07c841fc854f0a7a2fc
+57: 1410ae4acc2cb73278a4458ffa230f8b5344f3bf9ca81814973d574ebb540df5
+58: 0d0fc4ff589b35f1b9b5d0c91edfd41a2cadad633b464cd44311021239ce8c12
+59: 276771ecb72d770f706329da7d5a4a99cba55a5c2bfd2c5233cc68719ea16668
+60: 5197db56ba583bf5dbf4ac5778cae11ce3aa9b4643957d048517f2e30bb48eb2
+61: 50e5be2ee4a8265722bd71efa3c5f4839a87d8dff8fc97cd3c99c757b3356344
+62: 057e8c432f8af63dc1857fced12220559856bc656e8c320f71bf8916ddf34509
+63: 6329cdc40c31a2d4b8637b884b3339b62f20867f377ec9524b37dd8e9e630064
+64: 735934920ead38c385a4dda43beebc1588abe8c90b265b023575a7b051d37c28
+65: 20c28a7e9410ed9bbf662955122e10e3f5cacf74b4e10b86b000009f01d7e81c
+66: 72fe073a94a21464d552eba988abc2b56439c5a57171ad9176b121cd70173b8a
+67: 4c6ea8412763fb467265353101242a9747935e7393de219afaec1ba2de40654e
+68: e2a26c0fb0e1aefee2aeb7f34d49997375f11519683a5bb60c9521ee5f729c30
+69: f14d63135ed49073780300e14073e06809cfb9eacd8dd045e7e0e2a91e43b32b
+70: 4905fc22c9483965db230a6ac660773ed4b55f2cc7b0d71107bffb756a326809
+71: 7f65f72b597bcfe4e9434c39b953fb1aa06b6751b5b4ebe9db953b9080a77cce
+72: dafd81d6875d33b31b8c3fa03648751db02d708ce17a9a852383eccf035af508
+73: 51c5d3d5b1c69f5bed4ae2c40ed689133797cec2214350092bbcfb29b33bacf3
+74: a7aba5d8803f8cc7750fb476b930c8f2e1a2125c0d2555ae7bbb985ff5c5ce70
+75: e47130a4d953b86d68a22cb1bd4a080be21ad2707ff95e7262f59c1fa1eed2da
+76: e5465d778fd48b724d9b5ddba23130c85cba329d39cef38f397d9fc439e64611
+77: 2f654c6e0896b152011d173e638892f2ba4b6cde34391daae24e1c5ccf8b2d3b
+78: ac0192e5556f1d8f583418141db15809509d1c5648f601c0f0c8a0185d67d2ea
+79: 66bf2a5964c904cea4d13b2913b82d7d9470f4899532bbf707d73895bc12a551
+80: cb314856717a527733ffb4e9b46cb04a5ce2d3a675ac9077ab9e1410a1d81171
+81: 32d13b1f2d4f01bc6e946dc3342f556e390a82c3df031b0dc0ddf639d7444856
+82: ccb00b1f84495e8298eb82909447d45d2c7bc5f318ea9bf5f50f668b15af91d5
+83: d4d68c2fbeb0c76111f88ccb1aa5c461544eb72057d975b24456d291f1b90042
+84: 6d19a77021d2fa19957951fd7f973f577a81c950040e7a2165f2a6ca3e3b2495
+85: c5ab5ec6d5754aab822201d1f6b57e1377622abd4d4f2c5b58ba1984e16e65b7
+86: d7a036b2b8302b900a0b6c52eeb7d832e7fba53f01e8619b0bbf58c02211fed8
+87: e255ad75bdfc339006a2de02996c3a403a49518589b8cb8529075f5cb6cb70a0
+88: 9d25b68a462017909c4b9f040c2efa803525e64cf373643b22fa096653306f36
+89: 9920b2704b4cb554b2cb9be1b939d8d2aa1d64ce8784c7d2176585201f4f5663
+
+Good luck, and have fun!
+
+-- L.B.]
+
+1.#####Cnrtltos o aecretypromdyu is eihretb pligDmt' frt at eod eodls,ec"mto oyu edn ftermiigcaatr fti etfl.
 oe oee,ta nytecretcatr n o h niefl,i o npanet(syuwl e fyutyt upt h n n edtecnlso!.Ec eihretwl aeol h etcatrraal.I snvrhls motn oapytemnplto oteetr eto h ie(trigawy meitl fe h iepudsgsta eaaetecretraal hpe rmteuraal ihret.Dcpemnso ae hpeswl eeduo hs ale ata eihret.
 oilsrt hs eihrtefloigln fcpetx sn h frtcaatr atcaatr.. ehdTIE- pl tfrtt h hl ie hnjs otepr htrmisecpee:
 "

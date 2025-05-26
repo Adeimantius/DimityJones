@@ -19,16 +19,4 @@ def compare_sha256_hashes(data, expected_hash):
     data = data.encode('utf-8') # Encode string to bytes
   
   hashed_data = hashlib.sha256(data).hexdigest()
-  print(hashed_data)
-  print(expected_hash)
   return hashed_data == expected_hash
-
-#test_buffer = "To begin with, for example, and to make sure your SHA-256 hash function is working, the hash value or checksum of this sentence, from capital 'T' to concluding colon, expressed in hexadecimal, is:"
-#input_text = test_buffer
-#target_sha = "10c0c7d9b0222a5a61601337105f1cbb7b1723b991404b870537095d1174f2b2"
-filepath = r"D:\dev\puzzles\DimityJones\solution-5.txt"
-target_sha = "79c920c8074fb613a3818e53ed7d6d053faa6de055f79f955c886b9ffbc8ebcb"
-input_text = load_text(filepath)
-
-match = compare_sha256_hashes(input_text, target_sha)
-print(match)

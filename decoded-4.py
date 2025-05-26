@@ -43,23 +43,30 @@ out_text = " ".join(newlist)
 
 #input_text = r"z ytimiDxt nagebqrednu ozw dnatsq sa ,yhxord ehtjuoy ypoz nam gnxlot dahx ,reh djoep wefqrew elpq elba exneve otzni teg side."
 #input_text = r"""n ytimiDq dekoolsc niagavlluferaeve ta ywmoc yrek tnenopw eht foqlebroodwlzzup lw ehT .eisnottubjesmeht aew sevldfinu erjb ylmroga ;knaly ehs llhof wenkkatrec rj saw nimht tahtjrew erenthgie eleht fo l ehT .mg euqalpkis diasvot ylpmp emoc" c -- "niieht tubww rood bkcol saehgit de f sA .tolnO" rogifsim yfdeen stp"ylppa leW ... tahw ,llda saw tutifsim x tahW ?wid erehrif t'ndt?"""
-input_text = r"hzag reHhtfird epnwod dezeht ot xm rood at."
+#input_text = r"hzag reHhtfird epnwod dezeht ot xm rood at."
+#input_text = """WE MMERRY GREET
+#WHOO CCLLEANNS THEIIR FEEETT"""
 
 output = ""
 char_count = 0
 buffer = ""
+
 for c in input_text:
     buffer += c
     char_count += 1
     if (char_count == 8):
-        buffer = buffer[::-1]
-        output += buffer[:7]
+        output += buffer[2]
+        output += buffer[1]
+        output += buffer[0]
+        output += buffer[6]
+        output += buffer[5]
+        output += buffer[4]
         buffer = ""
         char_count = 0
 
 output += buffer
 
-print(output)
+#print(output[:100])
 
 #import math
 #for i in range(len(input_text) / 8):
@@ -71,5 +78,5 @@ print(output)
 #print(out_text[:100])
 
 ### Dump text to file
-#out_filename = r"DimityJones\solution-4.txt"
-#write_text(out_filename, out_text)
+out_filename = r"DimityJones\solution-4.txt"
+write_text(out_filename, output)

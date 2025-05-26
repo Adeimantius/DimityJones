@@ -26,8 +26,8 @@ def compare_sha256_hashes(data, expected_hash):
 #test_buffer = "To begin with, for example, and to make sure your SHA-256 hash function is working, the hash value or checksum of this sentence, from capital 'T' to concluding colon, expressed in hexadecimal, is:"
 #input_text = test_buffer
 #target_sha = "10c0c7d9b0222a5a61601337105f1cbb7b1723b991404b870537095d1174f2b2"
-filepath = r"D:\dev\puzzles\DimityJones\solution-4.txt"
-target_sha = "37f48587ec073d5d5788afc50b59c9f12d393b9111c492b845d390bf5800ecae"
+filepath = r"D:\dev\puzzles\DimityJones\solution-5.txt"
+target_sha = "79c920c8074fb613a3818e53ed7d6d053faa6de055f79f955c886b9ffbc8ebcb"
 input_text = load_text(filepath)
 
 match = compare_sha256_hashes(input_text, target_sha)
